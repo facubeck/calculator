@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="display" id="display">0</div>
+
+        <div class="top-buttons">
+            <button class="clear" value="clear" >CLEAR</button>
+        </div>
+
+        <div class="buttons">
+          <button value="7" class="digit" data-key='55'>7</button>
+          <button value="8" class="digit" data-key='8'>8</button>
+          <button value="9" class="digit" data-key='57'>9</button>
+          <button value="/" class="operator" data-key='68'>/</button>
+          <button value="4" class="digit" data-key='52'>4</button>
+          <button value="5" class="digit" data-key='53'>5</button>
+          <button value="6" class="digit" data-key='54'>6</button>
+          <button value="*" class="operator" data-key='88'>×</button>
+          <button value="1" class="digit" data-key='49'>1</button>
+          <button value="2" class="digit" data-key='50'>2</button>
+          <button value="3" class="digit" data-key='51'>3</button>
+          <button value="-" class="operator" data-key='173'>-</button>
+          <button value="." class="decimal" data-key='190' id="decimal">.</button>
+          <button value="0" class="digit" id="zero" data-key='48'>0</button>
+          <button value="=" class="equals" data-key='69'>=</button>
+          <button value="+" class="operator" data-key='61'>+</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
